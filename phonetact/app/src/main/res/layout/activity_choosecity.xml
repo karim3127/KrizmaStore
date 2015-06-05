@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app1="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_blanc"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_toolbar"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app1:contentInsetStart="72dp"
+        app1:subtitleTextAppearance="@style/toolbarsubtitle"
+        app1:titleTextAppearance="@style/toolbartitle" />
+    <EditText android:id="@+id/myFilter" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:ems="10"
+        android:minHeight="48dp"
+        android:gravity="center_vertical"
+        android:layout_below="@+id/toolbar"
+        android:background="#F2F2F2"
+        android:textColor="@color/color_bleu_S"
+        android:textSize="@dimen/size_title_toolbar"
+        android:paddingLeft="32dp"
+        android:paddingRight="16dp"
+        android:hint="your contry">
+        <requestFocus />
+    </EditText>
+
+    <ListView android:id="@+id/listView1" android:layout_width="fill_parent"
+        android:layout_below="@+id/myFilter"
+        android:divider="@null"
+        android:layout_height="fill_parent" />
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/my_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_below="@+id/toolbar" >
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>

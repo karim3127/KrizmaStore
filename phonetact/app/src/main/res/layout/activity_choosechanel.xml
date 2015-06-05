@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:app1="http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_blanc"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_toolbar"
+        android:minHeight="?attr/actionBarSize"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app1:contentInsetStart="72dp"
+        app1:subtitleTextAppearance="@style/toolbarsubtitle"
+        app1:titleTextAppearance="@style/toolbartitle" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/toolbar"
+        android:background="@color/color_blanc"
+        android:layout_marginBottom="48dp"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Optional - Follow channels"
+                android:textColor="@color/color_theme"
+                android:textSize="@dimen/size_title_toolbar"
+                android:layout_marginBottom="@dimen/padding_left_size"
+                />
+
+            <RelativeLayout
+                android:id="@+id/news"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="10dp" >
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/checkBox_N"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+
+                <TextView
+                    android:id="@+id/txt_N"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="56dp"
+                    android:text="News"
+                    android:textColor="@color/color_noirchannel" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/health"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" >
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/checkBox_H"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+
+                <TextView
+                    android:id="@+id/txt_H"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="56dp"
+                    android:text="Health and Fitness"
+                    android:textColor="@color/color_noirchannel" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/pets"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" >
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/checkBox_P"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+
+                <TextView
+                    android:id="@+id/txt_P"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="56dp"
+                    android:text="Pets and Dogs "
+                    android:textColor="@color/color_noirchannel" />
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/cars"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" >
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/checkBox_C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+
+                <TextView
+                    android:id="@+id/txt_C"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="56dp"
+                    android:text="Cars and Auto"
+                    android:textColor="@color/color_noirchannel" />
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/beauty"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" >
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/checkBox_B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+
+                <TextView
+                    android:id="@+id/txt_B"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="56dp"
+                    android:text="Beauty"
+                    android:textColor="@color/color_noirchannel" />
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:id="@+id/arts"
+                android:layout_width="match_parent"
+                android:layout_height="48dp">
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/checkBox_A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+
+                <TextView
+                    android:id="@+id/txt_A"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="56dp"
+                    android:text="Arts"
+                    android:textColor="@color/color_noirchannel" />
+            </RelativeLayout>
+
+
+            <RelativeLayout
+                android:id="@+id/food"
+                android:layout_width="match_parent"
+                android:layout_height="48dp" >
+
+                <com.rey.material.widget.CheckBox
+                    android:id="@+id/checkBox_F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true" />
+
+                <TextView
+                    android:id="@+id/txt_F"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="56dp"
+                    android:text="Food"
+                    android:textColor="@color/color_noirchannel" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <com.phonetact.phonetact.Utils.MaterialRippleLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/Savebuuton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/color_theme"
+        android:clickable="true"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        app:mrl_rippleAlpha="0.1"
+        app:mrl_rippleColor="@color/color_blanc"
+        app:mrl_rippleDelayClick="true"
+        app:mrl_rippleDimension="10dp"
+        app:mrl_rippleDuration="350"
+        app:mrl_rippleFadeDuration="75"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleOverlay="true"
+        app:mrl_ripplePersistent="false" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_title_toolbar"
+                android:layout_centerInParent="true"
+                android:textColor="@color/color_blanc"
+                android:text="Save"/>
+        </RelativeLayout>
+
+    </com.phonetact.phonetact.Utils.MaterialRippleLayout>
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="devider_color_tab">#00000000</color>
+    <color name="color_theme">#3096CF</color>
+    <color name="color_toolbar">#085A7F</color>
+    <color name="color_second">#F7851E</color>
+    <color name="color_second_therty">#70F7851E</color>
+    <color name="color_gris">#E6E6E6</color>
+	<color name="color_blanc">#ffffff</color>
+	<color name="color_gris_info">#085A7F</color>
+	<color name="color_link">#4fc3f7</color>
+	<color name="transparent">#00FFFFFF</color>
+	<color name="color_clickripple">#40085A7F</color>
+	<color name="color_deviceinfo_bleu">#20085A7F</color>
+	
+	
+	<!-- facebook and twitter -->
+	<color name="com_parse_ui_facebook_login_button">#3B5998</color>
+    <color name="com_parse_ui_facebook_login_button_push">#2E4677</color>
+    <color name="com_parse_ui_facebook_login_button_focus">#304F8B</color>
+    <color name="com_parse_ui_twitter_login_button">#2DAAE2</color>
+    <color name="com_parse_ui_twitter_login_button_push">#2588B5</color>
+    <color name="com_parse_ui_twitter_login_button_focus">#2788BE</color>
+
+    <!-- herite de daam-->
+    <color name="category_selected">#3334495e</color>
+    <color name="category_non_selected">#0034495e</color>
+    <color name="Gris_hint">#807f8c8d</color>
+    <color name="Gris_alpha_therty">#4D7f8c8d</color>
+    <color name="Gris">#7f8c8d</color>
+    <color name="free_menu_vert_thirty">#3034495e</color>
+
+
+
+    <color name="primaryDark">@color/color_toolbar</color>
+    <color name="accent">#29b6f6</color>
+</resources>

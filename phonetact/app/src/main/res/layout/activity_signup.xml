@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/splashscreens"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="@dimen/padding_left_size"
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="200dp"
+            android:minHeight="50dp"
+            android:scaleType="centerCrop"
+            android:layout_marginBottom="@dimen/padding_left_size"
+            android:src="@drawable/logofontactt"/>
+
+    <TextView
+        android:id="@+id/myCity"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center"
+        android:textColor="@color/color_bleu_S"
+        android:textSize="@dimen/size_element_primaire"
+        android:text="Choose your city"
+        android:typeface="monospace"
+        android:layout_marginBottom="@dimen/padding_left_size"
+        android:maxLines="1"
+        android:background="@drawable/bg_signupphone"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginBottom="@dimen/padding_left_size">
+            <TextView
+                android:id="@+id/myCodePhone"
+                android:layout_width="wrap_content"
+                android:maxLength="4"
+                android:layout_height="48dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:gravity="center"
+                android:textColor="@color/color_bleu_S"
+                android:textSize="@dimen/size_element_primaire"
+                android:typeface="monospace"
+                android:text="+216"
+                android:textColorHint="@color/color_gris_S"
+                android:inputType="number"
+                android:maxLines="1"
+                android:background="@drawable/bg_signupphone"
+                android:layout_alignParentLeft="true"/>
+            <EditText
+                android:id="@+id/myPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@+id/myCodePhone"
+                android:textColor="@color/color_bleu_S"
+                android:textSize="@dimen/size_element_primaire"
+                android:typeface="monospace"
+                android:hint="Your Phone Number"
+                android:textColorHint="@color/color_gris_S"
+                android:inputType="number"
+                android:maxLines="1"
+                android:background="@drawable/bg_signupphone"/>
+            </RelativeLayout>
+
+    <com.phonetact.phonetact.Utils.MaterialRippleLayout
+        android:id="@+id/nextbutton"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bg_nextcolor"
+        android:clickable="true"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        app:mrl_rippleAlpha="0.1"
+        app:mrl_rippleColor="@color/color_blanc"
+        app:mrl_rippleDelayClick="true"
+        app:mrl_rippleDimension="10dp"
+        app:mrl_rippleDuration="350"
+        app:mrl_rippleFadeDuration="75"
+        app:mrl_rippleHover="true"
+        app:mrl_rippleOverlay="true"
+        app:mrl_ripplePersistent="false" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/size_title_toolbar"
+                android:layout_centerInParent="true"
+                android:textColor="@color/color_theme"
+                android:text="Join Fontact"/>
+            </RelativeLayout>
+
+        </com.phonetact.phonetact.Utils.MaterialRippleLayout>
+
+    <!--<com.rey.material.widget.EditText
+        style="@style/Material.Widget.EditText.Light"
+        android:id="@+id/myPhoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:gravity="center_vertical"
+        android:textColor="@color/color_blanc"
+        android:textSize="@dimen/size_element_primaire"
+        android:typeface="monospace"
+        android:maxLines="1"
+        android:hint="Your Phone Number"
+        android:background="@drawable/bg_signupphone"
+        app:et_error="should not be empty"
+        app:et_autoCompleteMode="none"
+        app:et_dividerColor="@color/transparent"
+        />-->
+    </LinearLayout>
+    </LinearLayout>

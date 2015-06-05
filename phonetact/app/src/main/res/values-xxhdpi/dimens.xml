@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="size_logo">20sp</dimen>
+    <dimen name="size_title_toolbar">20sp</dimen>
+    <dimen name="size_subtitle_toolbar">16sp</dimen>
+    
+    <dimen name="size_title_toolbar_tool">20sp</dimen>
+    <dimen name="size_subtitle_toolbar_tool">18sp</dimen>
+    
+    <dimen name="size_title_tab">17sp</dimen>
+    <dimen name="size_title_tabb">10sp</dimen>
+    
+    <dimen name="size_carde_number">20sp</dimen>
+    <dimen name="size_carde_txt">16sp</dimen>
+    <dimen name="size_carde_txt_first">16sp</dimen>
+    
+    <!-- element newer -->
+    <dimen name="size_element_primaire">16sp</dimen>
+    <dimen name="size_element_secondaire">14sp</dimen>
+    <dimen name="size_element_three">12sp</dimen>
+    <!-- element fav -->
+    <dimen name="size_icon_fav">25sp</dimen>
+    
+    <!-- metrics -->
+    <dimen name="size_metrics">50sp</dimen>
+    <dimen name="size_metrics_text">20sp</dimen>
+    
+    <!-- detail device size -->
+    <dimen name="detail_device_size_info">16sp</dimen>
+</resources>

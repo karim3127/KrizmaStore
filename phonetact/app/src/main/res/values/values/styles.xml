@@ -1,0 +1,82 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Customize your theme here. <item name="windowActionBar">false</item> -->
+        <item name="android:windowFullscreen"> true</item>
+    </style>
+
+    <style name="NoTitlebar" parent="@style/Theme.AppCompat.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowFullscreen"> true</item>
+        <item name="android:windowContentOverlay"> @null</item>
+    </style>
+
+    <style name="Mystyle" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="colorPrimary">@color/color_theme</item>
+        <item name="colorPrimaryDark">@color/color_toolbar</item>
+        <item name="colorAccent">#29b6f6</item>
+        <item name="android:textColorPrimary">#ffffff</item>
+
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/white</item>
+    </style>
+
+    <style name="toolbartitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/size_title_toolbar</item>
+    </style>
+    <style name="toolbartitleAdcomment" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">#333333</item>
+        <item name="android:textSize">@dimen/size_title_toolbar</item>
+    </style>
+
+    <style name="toolbarsubtitle" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textSize">@dimen/size_subtitle_toolbar</item>
+        <item name="android:textColor">#90ffffff</item>
+    </style>
+
+    <style name="Widget.MyApp.HeaderBar.Spinner" parent="Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item name="android:background">?android:selectableItemBackground</item>
+        <item name="android:dropDownSelector">?android:selectableItemBackground</item>
+        <item name="android:divider">@null</item>
+    </style>
+
+    <style name="ProgressBar.battery" parent="@android:style/Widget.Holo.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_cpuorange</item>
+    </style>
+    <style name="fab_layout_wrap_width_wrap_height_style">
+		<item name="android:layout_width">40dp</item>
+		<item name="android:layout_height">40dp</item>
+	</style>
+	<style name="fab_action_button_base_style" parent="fab_layout_wrap_width_wrap_height_style" />
+	<style name="fab_action_button_style" parent="fab_action_button_base_style">
+		<item name="android:layout_alignParentBottom">true</item>
+		<item name="android:layout_alignParentRight">true</item>
+		<item name="android:layout_marginRight">@dimen/fab_margin</item>
+		<item name="android:layout_marginBottom">@dimen/fab_margin</item>
+	</style>
+
+
+
+<!-- simple dialog -->
+    <style name="SimpleDialog" parent="Material.App.Dialog.Simple.Light">
+        <item name="di_inAnimation">@anim/anim_scale_in</item>
+        <item name="di_outAnimation">@anim/anim_scale_out</item>
+    </style>
+<!-- simple animation -->
+    <style name="GrowFromTop">
+        <item name="android:windowEnterAnimation">@anim/anim_scale_in</item>
+        <item name="android:windowExitAnimation">@anim/anim_scale_out</item>
+    </style>
+
+</resources>

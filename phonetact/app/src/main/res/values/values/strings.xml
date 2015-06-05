@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">NeverAsk</string>
+	<string name="app_better">Better</string>
+	<string name="app_newer">Newer</string>
+	<string name="app_deviceinfo">Device info</string>
+    <string name="app_discussion">Ad Comment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Contact Us</string>
+    <string name="action_favory">Favorite</string>
+    <string name="action_Top">Top 10</string>
+    <string name="action_about">About</string>
+    
+    <string-array name="colors">
+        <item>#ffb74d</item>
+        <item>#ff9100</item>
+        <item>#f57c00</item>
+    </string-array>
+    
+    
+    <!-- device info -->
+    <string name="device">Device</string>
+    <string name="device_board">Board: %1$s</string>
+    <string name="device_brand">Brand: %1$s</string>
+    <string name="device_device">Device: %1$s</string>
+    <string name="device_model">Model: %1$s</string>
+    <string name="device_product">Product: %1$s</string>
+    <string name="device_tags">Tags: %1$s</string>
+
+    <string name="os">Operating System</string>
+    <string name="os_build">Build release: %1$s; %2$s</string>
+    <string name="os_build_display">Build: %1$s</string>
+    <string name="os_build_fingerprint">Fingerprint: %1$s</string>
+    <string name="os_build_id">Build ID: %1$s</string>
+    <string name="os_time">Time: %1$s</string>
+    <string name="os_type">Type: %1$s</string>
+    <string name="os_user">User: %1$s</string>
+
+    <string name="density">Density</string>
+    <string name="density_density">Density: %1$s</string>
+    <string name="density_dpi">Density DPI: %1$d</string>
+    <string name="density_scaled">Scaled Density: %1$s</string>
+    <string name="density_xdpi">xdpi: %1$s</string>
+    <string name="density_ydpi">ydpi: %1$s</string>
+
+    <string name="density_reference">Density reference:</string>
+    <string name="density_reference_default">Default: %1$d</string>
+    <string name="density_reference_low">Low: %1$d</string>
+    <string name="density_reference_medium">Medium: %1$d</string>
+    <string name="density_reference_high">High: %1$d</string>
+
+    <string name="screen">Screen</string>
+    <string name="screen_height">Height: %1$dpx</string>
+    <string name="screen_width">Width: %1$dpx</string>
+
+    <string name="id">991794817498045</string>
+</resources>

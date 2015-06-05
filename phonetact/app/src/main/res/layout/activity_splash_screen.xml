@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relative"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splashscreens"
+    tools:context=".SplashScreen">
+
+    <ImageView
+        android:id="@+id/imagelogo1"
+        android:layout_width="@dimen/width_splash_image"
+        android:layout_height="@dimen/width_splash_image"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:src="@drawable/cercle" />
+    <ImageView
+        android:id="@+id/imagelogo"
+        android:layout_width="@dimen/width_splash_logo"
+        android:layout_height="@dimen/width_splash_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/iconfontact" />
+
+    <TextView
+        android:id="@+id/txt_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imagelogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Fonetact"
+        android:textColor="#fff"
+        android:visibility="gone"
+        android:textSize="@dimen/size_logo"
+        android:textStyle="bold" />
+
+    <com.rey.material.widget.SnackBar
+        android:id="@+id/main_sn"
+        android:layout_width="match_parent"
+        app:sb_width="match_parent"
+        app:sb_height="48dp"
+        app:sb_singleLine="true"
+        app:sb_minWidth="288dp"
+        app:sb_maxWidth="568dp"
+        app:sb_actionTextColor="@color/color_rouge"
+        app:sb_textColor="@color/color_blanc"
+        android:layout_height="48dp"
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

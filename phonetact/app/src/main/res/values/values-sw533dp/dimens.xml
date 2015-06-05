@@ -1,0 +1,42 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. 235-->
+    <dimen name="height_cercle">200dp</dimen>
+    <dimen name="size_nombre_layout">50dp</dimen>
+    <dimen name="size_image_first">70dp</dimen>
+    
+    <dimen name="width_spinner">300dp</dimen>
+    <dimen name="size_carde_txt_first">18sp</dimen>
+    <dimen name="size_carde_txt">18sp</dimen>
+    
+    <!-- news fragment -->
+    <dimen name="height_image_news">200dp</dimen>
+    
+    <!-- dashboord toolbar -->
+    <dimen name="size_title_toolbar_tool">25sp</dimen>
+    
+    <!-- metrics -->
+    <dimen name="size_metrics">50sp</dimen>
+    <dimen name="size_metrics_text">20sp</dimen>
+    <dimen name="width_metrics">300dp</dimen>
+    
+    <!-- device element -->
+    <dimen name="padding_left_size">48dp</dimen>
+    <dimen name="padding_left_news">48dp</dimen>
+    
+    <!-- video height -->
+    <dimen name="height_video">350dp</dimen>
+    
+    
+    <!-- detail device size -->
+    <dimen name="detail_device_size_info">17sp</dimen>
+    
+    <!-- width photo image -->
+    <dimen name="width_gallery_image">430dp</dimen>
+    
+    <!-- width image spalsh -->
+    <dimen name="width_splash_image">160dp</dimen>
+    
+    <!-- width image spalsh logo -->
+    <dimen name="width_splash_logo">120dp</dimen>
+</resources>
